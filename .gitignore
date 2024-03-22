@@ -122,3 +122,11 @@ work_dirs/
 *.pth
 *.py~
 *.sh~
+.github/._.DS_Store
+configs/_base_/models/cascade_rcnn_r50_fpn1.py
+configs/_base_/models/faster_rcnn_r50_fpn1_softnms.py
+configs/_base_/models/faster_rcnn_r50_fpn1.py
+configs/_base_/models/faster_rcnn_r50_fpn2.py
+configs/_base_/models/faster_rcnn_r50_fpn3.py
+configs/_base_/models/faster_rcnn_r50_fpn4.py
+configs/_base_/._.DS_Store

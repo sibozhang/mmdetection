@@ -22,9 +22,7 @@ from .custom import CustomDataset
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
 
-#line1 data annotation order
-
-    CLASSES = ('excavator', 'human', 'loader', 'truck')
+    CLASSES = ('excavator', 'loader', 'human')
 
     # CLASSES = ('person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus',
     #            'train', 'truck', 'boat', 'traffic light', 'fire hydrant',
